@@ -8,7 +8,7 @@
 - Run following command to install dependencies `npm install`
 - Run following command to install PW browsers `npx playwright install`
 
-**3. Run tests**
+**2. Run tests**
 - To run desired test, please check _'scripts'_ in [package.json](https://github.com/Nikolcic/JiffyDemo/blob/main/package.json) file, (e.g. to run tests execute following comand `npm run chrome:web`)
 
 
