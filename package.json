@@ -1,0 +1,30 @@
+{
+  "name": "jiffydemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "chrome:web": "NODE_ENV=web npx playwright test tests/demoTest.spec.ts --config=playwright.config.ts --project=Chromium",
+    "chrome:mobile": "NODE_ENV=mobile npx playwright test tests/demoTest.spec.ts --config=playwright.config.ts --project=Chromium"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/Nikolcic/JiffyDemo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Nikolcic/JiffyDemo/issues"
+  },
+  "homepage": "https://github.com/Nikolcic/JiffyDemo#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.3",
+    "prettier": "3.5.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0"
+  }
+}
